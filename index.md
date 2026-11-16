@@ -17,6 +17,12 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 
 </div>
 
+## Education
+
+- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
+- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
+- **Bachelor's Degree in Economics (Double Degree)**, National School of Development, Peking University, 2022&ndash;2025
+
 ## Research Interests
 
 - Emerging memory technologies: 3D NAND flash and resistive random-access memory (RRAM)
@@ -25,9 +31,3 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 - Energy-efficient large language model inference
 
 {% include publications.md selected_only=true %}
-
-## Education
-
-- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
-- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
-- **Double Degree in Economics**, [National School of Development](https://en.nsd.pku.edu.cn/), Peking University

@@ -5,7 +5,7 @@ Based on https://github.com/shaoyanliu/academic-homepage. Original layouts, typo
 
 ## Maintenance
 - `_config.yml`: identity, canonical URL and optional profile links. Keep `baseurl` empty for this user site.
-- `index.md`: About Me, Research Interests, Selected Publications and Education.
+- `index.md`: About Me, Education, Research Interests and Selected Publications.
 - `_data/navigation.yml`: displayed in reverse order; About and Publications only.
 - `_data/publications.yml`: full list, newest first within each year; `selected: true` features a record on the homepage. Highlight Tianyang Luo with `publication-self-author`.
 - `_data/publication_topics.yml`: currently empty; add verified topic IDs only when needed.
@@ -16,7 +16,7 @@ Removed unused demo page entry points. Shared includes remain available for futu
 
 ## Publication provenance and pending metadata
 ISCA title and full author order verified against https://www.iscaconf.org/isca2026_dev/program/ and IEEE Xplore https://ieeexplore.ieee.org/abstract/document/11617910 (2026-11-16). DOI: 10.1109/ISCA66397.2026.00078. Title capitalization follows the conference program.
-IEDM title and acceptance supplied by the site owner; no authoritative matching public record found in this check. Full author list and public resources remain pending; temporary authors: Tianyang Luo et al. Status is accepted for presentation, not presented.
+IEDM title and acceptance supplied by the site owner; no authoritative matching public record found in this check. Full author list and paper number 24-4 were subsequently supplied by the owner from the conference program; public resource links remain pending. Status is accepted for presentation, not presented.
 Supervisors, email, photograph, CV and Scholar ID were not provided and are intentionally omitted.
 
 ## Build and deployment
@@ -35,5 +35,7 @@ Validation: built-in Pages build succeeded; both live pages and 16 internal page
 ## ORCID update (2026-11-16)
 Public ORCID record: https://orcid.org/0009-0000-5288-6817 (public API v3.0, works and educations).
 Five public works were verified by DOI against Crossref: NASiC (DAC 2026), DIAMoND (ISCA 2026), LoRA write-back (ISCAS 2026), multi-level-cell computing (EDTM 2026), and ternary transistor (SNW 2024). Titles and full author order follow publisher-deposited Crossref metadata; DIAMoND now uses the deposited capitalization MOE. The IEDM accepted paper remains, for six total entries. Existing two homepage selections are retained. Full list is ordered by publication date, with upcoming IEDM first. No abstracts or unverified PDF links added.
-Education dates and departments follow the public ORCID record: bachelor's 2021-2025, doctoral start 2025. ORCID lists a future doctoral end of 2030; website uses 2025-present to avoid implying graduation. Applied Physics degree subject is owner-confirmed. Economics dates are not public and remain omitted.
-NSD official English name: National School of Development. Its English pages use both "double-degree program in economics" (https://en.nsd.pku.edu.cn/aboutus/30th/537358.htm) and "Economics Double-major Program" (https://en.nsd.pku.edu.cn/programs/doublemajor/index.htm). Retain owner-confirmed double-degree wording, without inventing a B.A./B.Sc. designation; see official Chinese degree program https://nsd.pku.edu.cn/jxxm/bks/xmjs_bks/sxwfx/530304.htm.
+Education dates and departments follow the public ORCID record: bachelor's 2021-2025, doctoral start 2025. ORCID lists a future doctoral end of 2030; website uses 2025-present to avoid implying graduation. Applied Physics degree subject is owner-confirmed. Economics dates 2022-2025 and bachelor's degree status were subsequently confirmed by the owner.
+NSD official English name: National School of Development. Its English pages use both "double-degree program in economics" (https://en.nsd.pku.edu.cn/aboutus/30th/537358.htm) and "Economics Double-major Program" (https://en.nsd.pku.edu.cn/programs/doublemajor/index.htm). Use owner-confirmed Bachelor's Degree in Economics (Double Degree), without inventing a B.A./B.Sc. designation; see official Chinese degree program https://nsd.pku.edu.cn/jxxm/bks/xmjs_bks/sxwfx/530304.htm.
+
+Owner corrections: Education now follows About Me; all three school names use plain text consistently. Economics is a bachelor's degree (double degree), 2022-2025. ISCA marks Tianyang Luo as a co-first author with an explanatory asterisk; other authors' contribution designations were not independently supplied. IEDM uses the owner-provided 13-author conference-program order and paper number 24-4; retains accepted, not-yet-published status and no invented DOI/PDF. No styling changes.
