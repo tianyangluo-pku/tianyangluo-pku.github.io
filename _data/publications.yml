@@ -17,14 +17,14 @@ main:
   selected: false
   doi: https://doi.org/10.1145/3770743.3804128
 - title: 'DIAMoND: Dynamic Inference for Adaptive Edge MOE with Heterogeneous In-NAND and Near-DRAM Compute Architecture'
-  authors: Ling Liang<sup aria-label="co-first author">*</sup>, <span class="publication-self-author">Tianyang Luo</span><sup aria-label="co-first
-    author">*</sup>, Shuzhang Zhong, Dongxue Zhao, Qichao Ma, Renjie Wei, Jingyu Wang, Meng Li, Guangyu Sun, Zongwei Wang, Yimao Cai
+  authors: Ling Liang<sup aria-label="co-first author">†</sup>, <span class="publication-self-author">Tianyang Luo</span><sup aria-label="co-first
+    author">†</sup>, Shuzhang Zhong, Dongxue Zhao, Qichao Ma, Renjie Wei, Jingyu Wang, Meng Li, Guangyu Sun, Zongwei Wang, Yimao Cai
   conference_short: ISCA
   conference: 2026 ACM/IEEE 53rd Annual International Symposium on Computer Architecture (ISCA)
   year: 2026
   selected: true
   doi: https://doi.org/10.1109/isca66397.2026.00078
-  author_note: '* Equal contribution.'
+  author_note: † Equal contribution.
 - title: Efficient LoRA-Based Weight Update Write-Back in 3D NAND Flash for Large Language Models
   authors: Dongxue Zhao, <span class="publication-self-author">Tianyang Luo</span>, Ling Liang, Zongwei Wang, Yimao Cai
   conference_short: ISCAS
