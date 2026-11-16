@@ -65,18 +65,14 @@
       {% if link.abstract %}
       <button class="publication-action" type="button" data-abstract-toggle aria-expanded="false" aria-controls="abstract-{{ publication_number }}" hidden>Abstract</button>
       {% endif %}
-      {% if link.doi %} 
-      <a href="{{ link.doi | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">DOI</a>
-      {% endif %}
+
       {% if link.pdf %} 
       <a href="{{ link.pdf | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
       {% endif %}
       {% if link.code %} 
       <a href="{{ link.code | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
       {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">{{ link.page_label | default: "Project Page" | escape }}</a>
-      {% endif %}
+
       {% if link.data %} 
       <a href="{{ link.data | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Dataset</a>
       {% endif %}

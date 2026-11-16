@@ -5,7 +5,7 @@ seo_title: Tianyang Luo | Peking University
 ---
 
 <div class="about-heading">
-  <h1 id="tianyang-luo">{{ site.title }}</h1>
+  <h1 id="tianyang-luo">{{ site.title }}&#65288;&#20013;&#25991;&#21517;&#65289;</h1>
 </div>
 
 ## About
