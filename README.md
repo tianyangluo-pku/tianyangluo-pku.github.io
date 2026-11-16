@@ -55,3 +55,5 @@ ISCA equal-contribution marks use a dagger on both Ling Liang and Tianyang Luo, 
 Publication contribution notes are 16px; venue badges are 18px with 1.2 line height. These overrides are scoped to the homepage publication component.
 
 Publication titles remain 20px; author lists and venue information use 18px; equal-contribution notes remain 16px.
+
+Lab affiliation: the biography links PKU MEMLab to https://www.pkumemlab.com/, as confirmed by the owner. The original portrait arrangement is retained; top content padding is reduced to 72px and heading/portrait gaps are tightened to make the header more compact without adding logos.

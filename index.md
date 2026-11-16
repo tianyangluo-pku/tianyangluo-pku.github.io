@@ -18,7 +18,7 @@ seo_title: Tianyang Luo | Peking University
 </figure>
 {% endif %}
 
-I am a Ph.D. student at the **School of Integrated Circuits, Peking University**, advised by **Prof. Yimao Cai**. My research explores **memory-centric computing architectures** that leverage **emerging memory technologies** for efficient LLM inference.
+I am a Ph.D. student at the **School of Integrated Circuits, Peking University**, and a member of [PKU MEMLab](https://www.pkumemlab.com/), advised by **Prof. Yimao Cai**. My research explores **memory-centric computing architectures** that leverage **emerging memory technologies** for efficient LLM inference.
 
 </div>
 
