@@ -24,8 +24,7 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 
 ### Research Interests
 
-- In-Memory and Near-Memory Computing Architectures
-- Memory-Centric Accelerators for LLM Inference
+- In-Memory and Near-Memory Computing Architectures for LLM Inference
 
 ## Experience
 
