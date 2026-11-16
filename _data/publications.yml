@@ -3,7 +3,7 @@ main:
   authors: <span class="publication-self-author">Tianyang Luo</span>, Zongwei Wang, Dongxue Zhao, Guanqi Wang, Kuijun Zeng, Ling Liang, Lin Bao,
     Lei Jin, Zhiliang Xia, Zongliang Huo, Nanxiang Chen, Yimao Cai, Ru Huang
   conference_short: IEDM
-  conference: 2026 IEEE International Electron Devices Meeting (IEDM), Paper 24-4. Accepted for presentation; not yet published.
+  conference: 2026 IEEE International Electron Devices Meeting (IEDM). Accepted.
   year: 2026
   selected: true
 - title: 'NASiC: 3D NAND-based CAM-Selected Multibit CIM Architecture for Efficient On-Device Mixture-of-Experts LLM Inference'
@@ -15,14 +15,14 @@ main:
   selected: false
   doi: https://doi.org/10.1145/3770743.3804128
 - title: 'DIAMoND: Dynamic Inference for Adaptive Edge MOE with Heterogeneous In-NAND and Near-DRAM Compute Architecture'
-  authors: Ling Liang, <span class="publication-self-author">Tianyang Luo</span><sup aria-label="co-first author">*</sup>, Shuzhang Zhong, Dongxue
-    Zhao, Qichao Ma, Renjie Wei, Jingyu Wang, Meng Li, Guangyu Sun, Zongwei Wang, Yimao Cai
+  authors: Ling Liang<sup aria-label="co-first author">*</sup>, <span class="publication-self-author">Tianyang Luo</span><sup aria-label="co-first
+    author">*</sup>, Shuzhang Zhong, Dongxue Zhao, Qichao Ma, Renjie Wei, Jingyu Wang, Meng Li, Guangyu Sun, Zongwei Wang, Yimao Cai
   conference_short: ISCA
   conference: 2026 ACM/IEEE 53rd Annual International Symposium on Computer Architecture (ISCA)
   year: 2026
   selected: true
   doi: https://doi.org/10.1109/isca66397.2026.00078
-  others: <span class="publication-contribution">* Co-first author.</span>
+  author_note: '* Equal contribution (co-first authors).'
 - title: Efficient LoRA-Based Weight Update Write-Back in 3D NAND Flash for Large Language Models
   authors: Dongxue Zhao, <span class="publication-self-author">Tianyang Luo</span>, Ling Liang, Zongwei Wang, Yimao Cai
   conference_short: ISCAS
@@ -36,7 +36,7 @@ main:
   conference_short: EDTM
   conference: 2026 10th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)
   year: 2026
-  selected: false
+  selected: true
   doi: https://doi.org/10.1109/edtm65772.2026.11497911
 - title: A Novel Ternary Transistor with Nested Source Design Incorporating Hybrid Switching Mechanism for Low-Power and High-Performance Applications
   authors: Shaodi Xu, <span class="publication-self-author">Tianyang Luo</span>, Jin Luo, Ru Huang, Qianqian Huang

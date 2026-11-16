@@ -1,6 +1,6 @@
 {% include scholar-snapshot.html %}
 {% if include.selected_only %}
-<h2 id="selected-publications" class="selected-publications-heading"><a href="{{ '/publications/' | relative_url }}">Selected Publications</a></h2>
+<h2 id="selected-publications" class="selected-publications-heading">Selected Publications</h2>
 {% else %}
 <h1 id="publications" class="page-title">Publications</h1>
 
@@ -51,6 +51,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">{% unless include.selected_only %}<span class="publication-number">{{ publication_number }}.</span> {% endunless %}{% if link.doi %}<a href="{{ link.doi | escape }}">{{ link.title | escape }}</a>{% elsif link.page %}<a href="{{ link.page | relative_url | escape }}">{{ link.title | escape }}</a>{% else %}{{ link.title | escape }}{% endif %}</div>
       <div class="author">{{ link.authors }}</div>
+      {% if link.author_note %}<div class="author publication-contribution"><small>{{ link.author_note | escape }}</small></div>{% endif %}
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
@@ -63,7 +64,7 @@
       <button class="publication-action" type="button" data-abstract-toggle aria-expanded="false" aria-controls="abstract-{{ publication_number }}" hidden>Abstract</button>
       {% endif %}
       {% if link.doi %} 
-      <a href="{{ link.doi | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+      <a href="{{ link.doi | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">DOI</a>
       {% endif %}
       {% if link.pdf %} 
       <a href="{{ link.pdf | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>

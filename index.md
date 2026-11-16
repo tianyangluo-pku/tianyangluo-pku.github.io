@@ -19,9 +19,9 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 
 ## Education
 
-- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
-- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
-- **Bachelor's Degree in Economics (Double Degree)**, National School of Development, Peking University, 2022&ndash;2025
+- **Ph.D. (in progress)**, School of Integrated Circuits, Peking University, 2025&ndash;present
+- **Bachelor of Science in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
+- **Bachelor of Economics (Double Degree)**, National School of Development, Peking University, 2022&ndash;2025
 
 ## Research Interests
 
