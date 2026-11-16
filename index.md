@@ -31,9 +31,8 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 
 ## Research Interests
 
-- Emerging memory technologies: 3D NAND flash and resistive random-access memory (RRAM)
-- In-memory and near-memory computing
-- Memory-centric AI accelerator architectures
-- Energy-efficient large language model inference
+- Emerging Memory Technologies
+- In-Memory and Near-Memory Computing Architectures
+- Memory-Centric AI Acceleration
 
 {% include publications.md selected_only=true %}
