@@ -1,11 +1,9 @@
 name: Deploy academic homepage
 
+# Production uses Settings > Pages > Deploy from a branch: main / (root).
+# Before manually using this alternative, switch Pages Source to GitHub Actions.
 on:
-  push:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Update Google Scholar statistics"]
-    types: [completed]
 
 permissions:
   contents: read

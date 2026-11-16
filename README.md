@@ -21,10 +21,11 @@ Education dates, supervisors, email, photograph, CV and Scholar ID were not prov
 
 ## Build and deployment
 Use Ruby/Bundler, then `bundle install` and `bundle exec jekyll build`. Preview with `bundle exec jekyll serve`.
-GitHub Settings > Pages > Build and deployment > Source should be GitHub Actions. `.github/workflows/pages.yml` is the retained deployment workflow; do not add a competing branch deployment. Push to main triggers it.
 
-Run 43848868533 failed before starting any build steps. Its check annotation states: "The job was not started because your account is locked due to a billing issue." Resolve the account issue in GitHub billing/support, then rerun the workflow. Workflow logs were unavailable (BlobNotFound); the check annotation establishes the cause.
-Local environment has no Ruby/Bundler or installed WSL distribution. YAML and source checks can run here, but a real Jekyll build and rendered desktop/mobile review remain required after unlocking Actions.
+Verified production configuration (2026-11-16): Settings > Pages > Deploy from a branch > main > / (root). GitHub's built-in Jekyll Pages build publishes each push. Keep this single automatic deployment mechanism.
 
-## Delivery blockers
-Git push has no usable local credentials; the connected GitHub integration returns 403 Resource not accessible by integration for tree creation. Grant repository Contents write access or authenticate Git locally. Pages settings API could not be read without authentication (404). A successful dynamic `pages build and deployment` run 43848865196 and a separate failed custom workflow indicate branch-based publication was active at initialization; confirm Settings > Pages and select GitHub Actions before using the retained workflow. Live site still serves demo content as of this check.
+`.github/workflows/pages.yml` is retained as a manual-only alternative. Before using it, resolve the GitHub account billing lock and switch Pages Source to GitHub Actions. Never run it alongside branch publishing. Custom workflow runs 43848868533 and 43853627263 did not start because GitHub reported: "The job was not started because your account is locked due to a billing issue." This does not prevent the built-in branch Pages build.
+
+Local environment has no Ruby/Bundler or installed WSL distribution. YAML, front matter, include-reference and diff checks passed locally. Production build validation uses GitHub Pages. Rendered browser desktop/mobile review is separate from HTTP/content checks.
+
+Git authentication and push were completed by the owner. In this environment GitHub requires the existing Windows proxy; use `git -c http.proxy=http://127.0.0.1:7890 push origin main` if direct connections fail. This command does not alter global Git configuration.
