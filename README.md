@@ -1,7 +1,7 @@
 # Tianyang Luo - academic homepage
 
 Personal Jekyll site: https://tianyangluo-pku.github.io/
-Based on https://github.com/shaoyanliu/academic-homepage. Original CSS, layouts, JavaScript, LICENSE and third-party notices are retained.
+Based on https://github.com/shaoyanliu/academic-homepage. Original layouts, typography, colors, JavaScript, LICENSE and third-party notices are retained. A narrowly scoped CSS fix removes empty thumbnail space and badge overlap for papers without images.
 
 ## Maintenance
 - `_config.yml`: identity, canonical URL and optional profile links. Keep `baseurl` empty for this user site.
@@ -29,3 +29,5 @@ Verified production configuration (2026-11-16): Settings > Pages > Deploy from a
 Local environment has no Ruby/Bundler or installed WSL distribution. YAML, front matter, include-reference and diff checks passed locally. Production build validation uses GitHub Pages. Rendered browser desktop/mobile review is separate from HTTP/content checks.
 
 Git authentication and push were completed by the owner. In this environment GitHub requires the existing Windows proxy; use `git -c http.proxy=http://127.0.0.1:7890 push origin main` if direct connections fail. This command does not alter global Git configuration.
+
+Validation: built-in Pages build succeeded; both live pages and 16 internal page/asset URLs returned 200. Removed demo pages and sample PDFs returned 404. Browser checks at 1440px and 390px verified content, no horizontal overflow, and publication search.

@@ -481,3 +481,9 @@ html[data-theme="dark"] .publications .publication-citations {
     width: 95px !important;
   }
 }
+
+/* Text-only papers must not reserve teaser space or overlap venue badges. */
+.publications .pub-row.publication-without-image { display: block; }
+.publications ol.bibliography li .publication-without-image .abbr { height: auto; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .publication-without-image .abbr abbr { position: static; }
+.publications .publication-without-image .col-sm-9 { width: auto; }

@@ -43,7 +43,7 @@
 
 {% capture search_text %}{{ link.title | strip_html }} {{ link.authors | strip_html }} {{ link.conference | strip_html }} {{ link.conference_short }} {{ link.year }} {{ link.abstract }} {% for topic in site.data.publication_topics %}{% if link.topics contains topic.id %} {{ topic.id }} {{ topic.label }} {{ topic.name }}{% endif %}{% endfor %}{% endcapture %}
 <li{% unless include.selected_only %} value="{{ publication_number }}"{% endunless %} data-publication data-topics="{{ link.topics | join: ' ' | escape }}" data-search-text="{{ search_text | strip_newlines | escape }}">
-<div class="pub-row">
+<div class="pub-row{% unless link.image %} publication-without-image{% endunless %}">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}<img src="{{ link.image | relative_url | escape }}" alt="{{ link.image_alt | default: link.title | strip_html | escape }}" class="teaser img-fluid z-depth-1" loading="lazy">{% endif %}
     {% if link.conference_short %}<abbr class="badge">{{ link.conference_short | escape }}</abbr>{% endif %}
