@@ -97,4 +97,7 @@ html[data-theme="dark"] .about-portrait figcaption { color: var(--global-text-co
 
 /* Keep contribution notes and venue badges readable alongside 20px entries. */
 .layout-about .publications .publication-contribution small { font-size: 16px; }
-.layout-about .publications .badge { font-size: 17px; line-height: 1.2; }
+.layout-about .publications .badge { font-size: 18px; line-height: 1.2; }
+
+.layout-about .publications ol.bibliography li .author,
+.layout-about .publications ol.bibliography li .periodical { font-size: 18px; }

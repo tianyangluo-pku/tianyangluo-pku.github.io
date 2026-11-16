@@ -52,4 +52,6 @@ Readability update: main content and publication titles are 20px; top-level sect
 
 ISCA equal-contribution marks use a dagger on both Ling Liang and Tianyang Luo, with the matching dagger in the contribution note. Current main-section/subsection/body sizes are 32/24/20px.
 
-Publication contribution notes are 16px; venue badges are 17px with 1.2 line height. These overrides are scoped to the homepage publication component.
+Publication contribution notes are 16px; venue badges are 18px with 1.2 line height. These overrides are scoped to the homepage publication component.
+
+Publication titles remain 20px; author lists and venue information use 18px; equal-contribution notes remain 16px.
