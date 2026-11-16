@@ -28,5 +28,6 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 
 ## Education
 
-- **Peking University** — Ph.D. student, School of Integrated Circuits
-- **Peking University** — B.S. in Applied Physics; double degree in Economics
+- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
+- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
+- **Double Degree in Economics**, [National School of Development](https://en.nsd.pku.edu.cn/), Peking University

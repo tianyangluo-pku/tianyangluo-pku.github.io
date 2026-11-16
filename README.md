@@ -17,7 +17,7 @@ Removed unused demo page entry points. Shared includes remain available for futu
 ## Publication provenance and pending metadata
 ISCA title and full author order verified against https://www.iscaconf.org/isca2026_dev/program/ and IEEE Xplore https://ieeexplore.ieee.org/abstract/document/11617910 (2026-11-16). DOI: 10.1109/ISCA66397.2026.00078. Title capitalization follows the conference program.
 IEDM title and acceptance supplied by the site owner; no authoritative matching public record found in this check. Full author list and public resources remain pending; temporary authors: Tianyang Luo et al. Status is accepted for presentation, not presented.
-Education dates, supervisors, email, photograph, CV and Scholar ID were not provided and are intentionally omitted.
+Supervisors, email, photograph, CV and Scholar ID were not provided and are intentionally omitted.
 
 ## Build and deployment
 Use Ruby/Bundler, then `bundle install` and `bundle exec jekyll build`. Preview with `bundle exec jekyll serve`.
@@ -31,3 +31,9 @@ Local environment has no Ruby/Bundler or installed WSL distribution. YAML, front
 Git authentication and push were completed by the owner. In this environment GitHub requires the existing Windows proxy; use `git -c http.proxy=http://127.0.0.1:7890 push origin main` if direct connections fail. This command does not alter global Git configuration.
 
 Validation: built-in Pages build succeeded; both live pages and 16 internal page/asset URLs returned 200. Removed demo pages and sample PDFs returned 404. Browser checks at 1440px and 390px verified content, no horizontal overflow, and publication search.
+
+## ORCID update (2026-11-16)
+Public ORCID record: https://orcid.org/0009-0000-5288-6817 (public API v3.0, works and educations).
+Five public works were verified by DOI against Crossref: NASiC (DAC 2026), DIAMoND (ISCA 2026), LoRA write-back (ISCAS 2026), multi-level-cell computing (EDTM 2026), and ternary transistor (SNW 2024). Titles and full author order follow publisher-deposited Crossref metadata; DIAMoND now uses the deposited capitalization MOE. The IEDM accepted paper remains, for six total entries. Existing two homepage selections are retained. Full list is ordered by publication date, with upcoming IEDM first. No abstracts or unverified PDF links added.
+Education dates and departments follow the public ORCID record: bachelor's 2021-2025, doctoral start 2025. ORCID lists a future doctoral end of 2030; website uses 2025-present to avoid implying graduation. Applied Physics degree subject is owner-confirmed. Economics dates are not public and remain omitted.
+NSD official English name: National School of Development. Its English pages use both "double-degree program in economics" (https://en.nsd.pku.edu.cn/aboutus/30th/537358.htm) and "Economics Double-major Program" (https://en.nsd.pku.edu.cn/programs/doublemajor/index.htm). Retain owner-confirmed double-degree wording, without inventing a B.A./B.Sc. designation; see official Chinese degree program https://nsd.pku.edu.cn/jxxm/bks/xmjs_bks/sxwfx/530304.htm.
