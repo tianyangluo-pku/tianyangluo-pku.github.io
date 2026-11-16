@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: redirect
 title: Publications
-description: Research publications by Tianyang Luo.
 permalink: /publications/
-full_width: true
+redirect_to: /#publications
+redirect_label: Publications
+sitemap: false
 ---
-
-{% include publications.md %}

@@ -1,6 +1,8 @@
-# Template renders this list in reverse order.
+# Rendered in reverse order by navigation.md.
 main:
-  - title: "Publications"
-    url: /publications/
-  - title: "About"
-    url: /
+  - title: Publications
+    url: /#publications
+  - title: Experience
+    url: /#experience
+  - title: About
+    url: /#about

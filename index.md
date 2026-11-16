@@ -8,7 +8,7 @@ seo_title: Tianyang Luo | Peking University
   <h1 id="tianyang-luo">{{ site.title }}</h1>
 </div>
 
-## About Me
+## About
 
 <div class="about-intro" markdown="1">
 
@@ -22,16 +22,18 @@ I am a Ph.D. student at the **School of Integrated Circuits, Peking University**
 
 </div>
 
-## Education
-
-- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
-- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
-- **B.Econ. in Economics**, National School of Development, Peking University, 2022&ndash;2025
-
-## Research Interests
+### Research Interests
 
 - Emerging Memory Technologies
 - In-Memory and Near-Memory Computing Architectures
 - Memory-Centric AI Acceleration
 
-{% include publications.md selected_only=true %}
+## Experience
+
+### Education
+
+- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
+- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
+- **B.Econ. in Economics**, National School of Development, Peking University, 2022&ndash;2025
+
+{% include publications.md homepage=true hide_controls=true %}

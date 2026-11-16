@@ -2,7 +2,7 @@
 {% if include.selected_only %}
 <h2 id="selected-publications" class="selected-publications-heading">Selected Publications</h2>
 {% else %}
-<h1 id="publications" class="page-title">Publications</h1>
+{% if include.homepage %}<h2 id="publications">Publications</h2>{% else %}<h1 id="publications" class="page-title">Publications</h1>{% endif %}
 
 {% if site.google_scholar and site.google_scholar != empty %}
 <p class="publication-legend"><a href="{{ site.google_scholar | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
@@ -12,6 +12,7 @@
 
 <div class="publications{% if include.selected_only %} selected-publications{% endif %}" data-publication-list>
 {% unless include.selected_only %}
+{% unless include.hide_controls %}
 <div class="publication-search" data-publication-search-controls role="search" aria-label="Search publications" hidden>
   <input type="search" data-publication-search aria-label="Search publications by title, author, journal, or keyword" placeholder="Search publications by title, author, journal, or keyword" autocomplete="off" spellcheck="false" aria-describedby="publication-filter-status">
   <button type="button" class="publication-search-clear" data-search-clear aria-label="Clear search" title="Clear search" hidden>&times;</button>
@@ -23,6 +24,7 @@
   {% endfor %}
 </div>
 <p class="publication-filter-status" id="publication-filter-status" data-filter-status role="status" aria-live="polite" hidden></p>
+{% endunless %}
 {% endunless %}
 {% assign publication_years = site.data.publications.main | group_by: "year" | sort: "name" | reverse %}
 {% assign publication_number = site.data.publications.main.size %}
