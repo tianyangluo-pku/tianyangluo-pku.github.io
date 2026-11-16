@@ -90,7 +90,11 @@ html[data-theme="dark"] .about-portrait figcaption { color: var(--global-text-co
 /* Improve reading size without changing the template typography or navigation. */
 .layout-about .wrapper > section { font-size: 20px; }
 .layout-about .about-intro { font-size: inherit; }
-.layout-about .wrapper > section > h3 { font-size: 26px; }
+.layout-about .wrapper > section > h3 { font-size: 24px; }
 .layout-about .publications ol.bibliography li .title { font-size: 20px; }
 
 .about-heading .name-chinese { display: inline-block; font-size: 0.7em; white-space: nowrap; }
+
+/* Keep contribution notes and venue badges readable alongside 20px entries. */
+.layout-about .publications .publication-contribution small { font-size: 16px; }
+.layout-about .publications .badge { font-size: 17px; line-height: 1.2; }
