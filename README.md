@@ -1,4 +1,4 @@
-# Tianyang Luo ? academic homepage
+# Tianyang Luo - academic homepage
 
 Personal Jekyll site: https://tianyangluo-pku.github.io/
 Based on https://github.com/shaoyanliu/academic-homepage. Original CSS, layouts, JavaScript, LICENSE and third-party notices are retained.
@@ -25,3 +25,6 @@ GitHub Settings > Pages > Build and deployment > Source should be GitHub Actions
 
 Run 43848868533 failed before starting any build steps. Its check annotation states: "The job was not started because your account is locked due to a billing issue." Resolve the account issue in GitHub billing/support, then rerun the workflow. Workflow logs were unavailable (BlobNotFound); the check annotation establishes the cause.
 Local environment has no Ruby/Bundler or installed WSL distribution. YAML and source checks can run here, but a real Jekyll build and rendered desktop/mobile review remain required after unlocking Actions.
+
+## Delivery blockers
+Git push has no usable local credentials; the connected GitHub integration returns 403 Resource not accessible by integration for tree creation. Grant repository Contents write access or authenticate Git locally. Pages settings API could not be read without authentication (404). A successful dynamic `pages build and deployment` run 43848865196 and a separate failed custom workflow indicate branch-based publication was active at initialization; confirm Settings > Pages and select GitHub Actions before using the retained workflow. Live site still serves demo content as of this check.
