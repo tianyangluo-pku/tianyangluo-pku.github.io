@@ -1,39 +1,32 @@
 ---
 layout: homepage
 title: About
-seo_title: Avery Researcher | Academic Homepage Demo
+seo_title: Tianyang Luo | Peking University
 ---
 
-<p class="demo-notice"><strong>Template demo.</strong> Avery Researcher, Example University, and all research, news, and activities below are fictional examples.</p>
-
 <div class="about-heading">
-  <h1 id="about-me">{{ site.title }}</h1>
-  <p class="about-tagline">Open science, thoughtful experiments, and useful models</p>
+  <h1 id="tianyang-luo">{{ site.title }}</h1>
+  <p class="about-tagline">Ph.D. Student · School of Integrated Circuits · Peking University</p>
 </div>
+
+## About Me
 
 <div class="about-intro" markdown="1">
 
-{% if site.avatar and site.avatar != "" %}
-<figure class="about-portrait">
-  <img src="{{ site.avatar | relative_url }}" alt="Illustrated placeholder portrait for Avery Researcher" />
-  <figcaption>Example University · Demo profile</figcaption>
-</figure>
-{% endif %}
-
-{% include scholar-stats.html %}
-
-Hello! I am **Avery Researcher**, a fictional doctoral researcher at **Example University**. This academic homepage demonstrates a place to introduce your research, share publications, and keep a record of teaching and service.
-
-My example research connects **scientific modeling**, **data analysis**, and **open research practices**. I am interested in building understandable models and sharing the tools that make scientific work reproducible.
-
-Outside the lab, I enjoy hiking, photography, and learning new things. Replace this introduction with your own background, research questions, and interests.
+I am a Ph.D. student at the **School of Integrated Circuits, Peking University**. My research focuses on memory-centric computing and energy-efficient AI acceleration, particularly emerging memory technologies for large language model inference.
 
 </div>
 
-<div class="about-mentoring" style="border: 1px solid var(--site-border); padding: 11px; background-color: var(--site-surface); color: var(--site-card-text); border-radius: 5px;">
-  <strong>Example announcement:</strong> Use this space for an opportunity, a recent project, or an invitation to collaborate.
-</div>
+## Research Interests
 
-{% include news.md %}
+- Emerging memory technologies: 3D NAND flash and resistive random-access memory (RRAM)
+- In-memory and near-memory computing
+- Memory-centric AI accelerator architectures
+- Energy-efficient large language model inference
 
 {% include publications.md selected_only=true %}
+
+## Education
+
+- **Peking University** — Ph.D. student, School of Integrated Circuits
+- **Peking University** — B.S. in Applied Physics; double degree in Economics

@@ -1,11 +1,5 @@
-# Display order is reversed by the navigation include.
+# Template renders this list in reverse order.
 main:
-  - title: "CV"
-    url: /cv/
-  - title: "News"
-    url: /news/
-  - title: "Activities"
-    url: /activities/
   - title: "Publications"
     url: /publications/
   - title: "About"

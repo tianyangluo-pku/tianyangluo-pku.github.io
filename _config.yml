@@ -1,33 +1,26 @@
-# Replace the fictional demo identity with your own details.
-title: Avery Researcher
+title: Tianyang Luo
 position: Ph.D. Student
-affiliation: Example University
-affiliation_link: https://example.com
-email: researcher@example.com
-
-# User site: url=https://USERNAME.github.io, baseurl=""
-# Project site: url=https://USERNAME.github.io, baseurl="/REPOSITORY"
-# The Pages workflow sets both automatically from your repository settings.
-url: https://example.com
+affiliation: School of Integrated Circuits, Peking University
+affiliation_link: https://www.pku.edu.cn/
+url: https://tianyangluo-pku.github.io
 baseurl: ""
 lang: en-US
-description: A fictional academic homepage demonstrating publications, news, activities, and an interactive CV.
+description: Academic homepage of Tianyang Luo, a Ph.D. student at Peking University researching memory-centric AI computing.
 google_site_verification: ""
 enable_last_update: false
 
-cv_pdf: /cv/example-cv.pdf
-avatar: /assets/img/avatar.svg
+# Enable these when the corresponding personal resources are ready.
+cv_pdf: ""
+avatar: ""
+email: ""
 google_scholar: ""
-orcid: ""
-github_link: ""
+orcid: https://orcid.org/0009-0000-5288-6817
+github_link: https://github.com/tianyangluo-pku
 linkedin: ""
 
-# Off by default. See README before enabling; API key belongs in GitHub Secrets.
 scholar:
   enabled: false
   profile_id: ""
-
-# Off by default; never sends visitors to the template author's analytics.
 analytics:
   goatcounter_code: ""
   show_count: false
@@ -44,3 +37,10 @@ exclude:
   - .bundle
   - .github
   - .venv
+  - files/example-paper.pdf
+  - cv/example-cv.pdf
+  - bib/example-workflow.bib
+  - bib/example-uncertainty.bib
+  - bib/example-data.bib
+  - assets/img/avatar.svg
+  - assets/img/research-demo.svg

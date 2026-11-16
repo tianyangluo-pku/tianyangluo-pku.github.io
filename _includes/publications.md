@@ -3,7 +3,7 @@
 <h2 id="selected-publications" class="selected-publications-heading"><a href="{{ '/publications/' | relative_url }}">Selected Publications</a></h2>
 {% else %}
 <h1 id="publications" class="page-title">Publications</h1>
-<p class="demo-notice">These are fictional example publications. The sample PDFs and BibTeX entries demonstrate the template and do not represent real research.</p>
+
 {% if site.google_scholar and site.google_scholar != empty %}
 <p class="publication-legend"><a href="{{ site.google_scholar | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 {% endif %}
