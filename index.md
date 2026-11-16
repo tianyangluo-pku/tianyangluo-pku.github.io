@@ -6,7 +6,6 @@ seo_title: Tianyang Luo | Peking University
 
 <div class="about-heading">
   <h1 id="tianyang-luo">{{ site.title }}</h1>
-  <p class="about-tagline">Ph.D. Student · School of Integrated Circuits · Peking University</p>
 </div>
 
 ## About Me
@@ -19,7 +18,7 @@ seo_title: Tianyang Luo | Peking University
 </figure>
 {% endif %}
 
-I am a Ph.D. student at the **School of Integrated Circuits, Peking University**, advised by **Prof. Yimao Cai**. My research explores emerging memory technologies and **memory-centric computing architectures** for efficient LLM inference.
+I am a Ph.D. student at the **School of Integrated Circuits, Peking University**, advised by **Prof. Yimao Cai**. My research explores **emerging memory technologies** and **memory-centric computing architectures** for efficient LLM inference.
 
 </div>
 
