@@ -6,6 +6,8 @@ main:
   conference: 2026 IEEE International Electron Devices Meeting (IEDM). Accepted.
   year: 2026
   selected: true
+  page: https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?ScheduleID=290
+  page_label: Program
 - title: 'NASiC: 3D NAND-based CAM-Selected Multibit CIM Architecture for Efficient On-Device Mixture-of-Experts LLM Inference'
   authors: Weikai Xu, Meng Li, Shuzhang Zhong, <span class="publication-self-author">Tianyang Luo</span>, Dongxue Zhao, Ling Liang, Zongwei Wang,
     Qianqian Huang, Yimao Cai, Ru Huang
@@ -22,7 +24,7 @@ main:
   year: 2026
   selected: true
   doi: https://doi.org/10.1109/isca66397.2026.00078
-  author_note: '* Equal contribution (co-first authors).'
+  author_note: '* Equal contribution.'
 - title: Efficient LoRA-Based Weight Update Write-Back in 3D NAND Flash for Large Language Models
   authors: Dongxue Zhao, <span class="publication-self-author">Tianyang Luo</span>, Ling Liang, Zongwei Wang, Yimao Cai
   conference_short: ISCAS

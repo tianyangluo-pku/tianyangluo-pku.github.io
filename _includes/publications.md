@@ -32,7 +32,7 @@
 {% unless include.selected_only %}
 <div class="publication-year-group" data-publication-year>
 <h3 class="year" id="publications-{{ year_group.name }}"><span>{{ year_group.name }}</span></h3>
-<ol class="bibliography" reversed start="{{ publication_number }}">
+<ol class="bibliography" role="list">
 {% endunless %}
 
 {% for link in year_group.items %}
@@ -42,14 +42,14 @@
 {% endif %}
 
 {% capture search_text %}{{ link.title | strip_html }} {{ link.authors | strip_html }} {{ link.conference | strip_html }} {{ link.conference_short }} {{ link.year }} {{ link.abstract }} {% for topic in site.data.publication_topics %}{% if link.topics contains topic.id %} {{ topic.id }} {{ topic.label }} {{ topic.name }}{% endif %}{% endfor %}{% endcapture %}
-<li{% unless include.selected_only %} value="{{ publication_number }}"{% endunless %} data-publication data-topics="{{ link.topics | join: ' ' | escape }}" data-search-text="{{ search_text | strip_newlines | escape }}">
+<li data-publication data-topics="{{ link.topics | join: ' ' | escape }}" data-search-text="{{ search_text | strip_newlines | escape }}">
 <div class="pub-row{% unless link.image %} publication-without-image{% endunless %}">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}<img src="{{ link.image | relative_url | escape }}" alt="{{ link.image_alt | default: link.title | strip_html | escape }}" class="teaser img-fluid z-depth-1" loading="lazy">{% endif %}
     {% if link.conference_short %}<abbr class="badge">{{ link.conference_short | escape }}</abbr>{% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">{% unless include.selected_only %}<span class="publication-number">{{ publication_number }}.</span> {% endunless %}{% if link.doi %}<a href="{{ link.doi | escape }}">{{ link.title | escape }}</a>{% elsif link.page %}<a href="{{ link.page | relative_url | escape }}">{{ link.title | escape }}</a>{% else %}{{ link.title | escape }}{% endif %}</div>
+      <div class="title">{% if link.doi %}<a href="{{ link.doi | escape }}">{{ link.title | escape }}</a>{% elsif link.page %}<a href="{{ link.page | relative_url | escape }}">{{ link.title | escape }}</a>{% else %}{{ link.title | escape }}{% endif %}</div>
       <div class="author">{{ link.authors }}</div>
       {% if link.author_note %}<div class="author publication-contribution"><small>{{ link.author_note | escape }}</small></div>{% endif %}
       <div class="periodical"><em>{{ link.conference }}</em>
@@ -73,7 +73,7 @@
       <a href="{{ link.code | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
       {% endif %}
       {% if link.page %} 
-      <a href="{{ link.page | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Project Page</a>
+      <a href="{{ link.page | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">{{ link.page_label | default: "Project Page" | escape }}</a>
       {% endif %}
       {% if link.data %} 
       <a href="{{ link.data | relative_url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Dataset</a>

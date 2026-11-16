@@ -13,15 +13,21 @@ seo_title: Tianyang Luo | Peking University
 
 <div class="about-intro" markdown="1">
 
+{% if site.avatar and site.avatar != "" %}
+<figure class="about-portrait">
+  <img src="{{ site.avatar | relative_url }}" alt="Portrait of Tianyang Luo" width="480" height="640" />
+</figure>
+{% endif %}
+
 I am a Ph.D. student at the **School of Integrated Circuits, Peking University**. My research focuses on memory-centric computing and energy-efficient AI acceleration, particularly emerging memory technologies for large language model inference.
 
 </div>
 
 ## Education
 
-- **Ph.D. (in progress)**, School of Integrated Circuits, Peking University, 2025&ndash;present
-- **Bachelor of Science in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
-- **Bachelor of Economics (Double Degree)**, National School of Development, Peking University, 2022&ndash;2025
+- **Ph.D. Student**, School of Integrated Circuits, Peking University, 2025&ndash;present
+- **B.S. in Applied Physics**, School of Electronics Engineering and Computer Science, Peking University, 2021&ndash;2025
+- **B.Econ. in Economics**, National School of Development, Peking University, 2022&ndash;2025
 
 ## Research Interests
 

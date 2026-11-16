@@ -11,7 +11,7 @@ enable_last_update: false
 
 # Enable these when the corresponding personal resources are ready.
 cv_pdf: ""
-avatar: ""
+avatar: /assets/img/tianyang-luo.jpg
 email: ""
 google_scholar: ""
 orcid: https://orcid.org/0009-0000-5288-6817
