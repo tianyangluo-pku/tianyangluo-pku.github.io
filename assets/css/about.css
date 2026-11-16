@@ -93,3 +93,5 @@ html[data-theme="dark"] .about-portrait figcaption { color: var(--global-text-co
 .layout-about .wrapper > section > h2 { font-size: 34px; }
 .layout-about .wrapper > section > h3 { font-size: 22px; }
 .layout-about .publications ol.bibliography li .title { font-size: 18px; }
+
+.about-heading .name-chinese { display: inline-block; font-size: 0.7em; white-space: nowrap; }
