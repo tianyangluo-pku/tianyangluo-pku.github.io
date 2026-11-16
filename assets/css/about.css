@@ -101,3 +101,5 @@ html[data-theme="dark"] .about-portrait figcaption { color: var(--global-text-co
 
 .layout-about .publications ol.bibliography li .author,
 .layout-about .publications ol.bibliography li .periodical { font-size: 18px; }
+
+.layout-about .publications .year { font-size: 24px; }
