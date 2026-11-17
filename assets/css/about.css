@@ -95,9 +95,8 @@ html[data-theme="dark"] .about-portrait figcaption { color: var(--global-text-co
 
 .about-heading .name-chinese { display: inline-block; font-size: 0.7em; white-space: nowrap; }
 
-/* Keep contribution notes and venue badges readable alongside 20px entries. */
+/* Keep contribution notes readable alongside 20px entries. */
 .layout-about .publications .publication-contribution small { font-size: 16px; }
-.layout-about .publications .badge { font-size: 18px; line-height: 1.2; }
 
 .layout-about .publications ol.bibliography li .author,
 .layout-about .publications ol.bibliography li .periodical { font-size: 18px; }

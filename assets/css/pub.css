@@ -353,9 +353,8 @@ html[data-theme="dark"] .bibtex-dialog-actions button { color: #13294b; }
 .publications ol.bibliography li .author { line-height: 1.3; }
 
 .publications .author .publication-self-author {
-    font-weight: 400;
-    text-decoration: underline;
-    text-underline-offset: 0.12em;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .publications ol.bibliography li .periodical { line-height: 1.25; }

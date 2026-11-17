@@ -46,10 +46,11 @@
 {% capture search_text %}{{ link.title | strip_html }} {{ link.authors | strip_html }} {{ link.conference | strip_html }} {{ link.conference_short }} {{ link.year }} {{ link.abstract }} {% for topic in site.data.publication_topics %}{% if link.topics contains topic.id %} {{ topic.id }} {{ topic.label }} {{ topic.name }}{% endif %}{% endfor %}{% endcapture %}
 <li data-publication data-topics="{{ link.topics | join: ' ' | escape }}" data-search-text="{{ search_text | strip_newlines | escape }}">
 <div class="pub-row{% unless link.image %} publication-without-image{% endunless %}">
+  {% if link.image %}
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}<img src="{{ link.image | relative_url | escape }}" alt="{{ link.image_alt | default: link.title | strip_html | escape }}" class="teaser img-fluid z-depth-1" loading="lazy">{% endif %}
-    {% if link.conference_short %}<abbr class="badge">{{ link.conference_short | escape }}</abbr>{% endif %}
   </div>
+  {% endif %}
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">{% if link.doi %}<a href="{{ link.doi | escape }}">{{ link.title | escape }}</a>{% elsif link.page %}<a href="{{ link.page | relative_url | escape }}">{{ link.title | escape }}</a>{% else %}{{ link.title | escape }}{% endif %}</div>
       <div class="author">{{ link.authors }}</div>
