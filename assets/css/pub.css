@@ -354,7 +354,8 @@ html[data-theme="dark"] .bibtex-dialog-actions button { color: #13294b; }
 
 .publications .author .publication-self-author {
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
 }
 
 .publications ol.bibliography li .periodical { line-height: 1.25; }
@@ -486,3 +487,13 @@ html[data-theme="dark"] .publications .publication-citations {
 .publications ol.bibliography li .publication-without-image .abbr { height: auto; margin-bottom: 0.5rem; }
 .publications ol.bibliography li .publication-without-image .abbr abbr { position: static; }
 .publications .publication-without-image .col-sm-9 { width: auto; }
+
+/* Align each bullet with the first title line, keeping all entry text aligned. */
+.publications ol.bibliography li .title { position: relative; }
+.publications ol.bibliography li .title::before {
+    content: "\2022";
+    position: absolute;
+    left: -1em;
+    color: var(--global-text-color);
+    font-weight: 400;
+}
